@@ -13,6 +13,10 @@ title = "Benthic Ecology Meeting"
   paypalClientID = "BAAJryVkog8JL0aveVQ2lzzcu1NdrJu09j7ayRwLtp3UUZpj-4_-r7opxYS8rmQi4BW8XjgnrGKZlz7XDw"
   paypalButtonID = "T243SR6PNR2CA"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [menu]
   [[menu.main]]
     name = "Home"

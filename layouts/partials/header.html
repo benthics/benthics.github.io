@@ -1,0 +1,36 @@
+<!-- Site Header Wrapper -->
+<div class="site-header-wrapper">
+  <header class="site-header">
+    <div class="container">
+      <a href="#" class="visible-sm visible-xs" id="menu-toggle"><i class="fa fa-bars"></i></a>
+
+      <!-- PayPal Donate Button -->
+      <div id="paypal-container-{{ .Site.Params.paypalButtonID }}"></div>
+      <style>.pp-{{ .Site.Params.paypalButtonID }}{text-align:center;border:none;border-radius:0.25rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
+      <form action="https://www.paypal.com/ncp/payment/{{ .Site.Params.paypalButtonID }}" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
+        <input class="pp-{{ .Site.Params.paypalButtonID }}" type="submit" value="Donate!" />
+        <img src="https://www.paypalobjects.com/images/Debit_Credit_APM.svg" alt="cards" />
+      </form>
+
+      <!-- Navigation -->
+      <ul class="sf-menu dd-menu pull-right" role="menu">
+        {{ range .Site.Menus.main }}
+          {{ if not .Parent }}
+            <li{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>
+              <a href="{{ .URL }}">{{ .Name }}</a>
+              {{ $children := .Children }}
+              {{ if $children }}
+                <ul>
+                  {{ range $children }}
+                    <li><a href="{{ .URL }}"{{ if .Params.target }} target="{{ .Params.target }}"{{ end }}>{{ .Name }}</a></li>
+                  {{ end }}
+                </ul>
+              {{ end }}
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+
+    </div>
+  </header>
+</div>

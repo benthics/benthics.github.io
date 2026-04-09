@@ -1,0 +1,37 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalyticsID }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ .Site.Params.googleAnalyticsID }}');
+</script>
+<!-- PayPal SDK -->
+<script
+  src="https://www.paypal.com/sdk/js?client-id={{ .Site.Params.paypalClientID }}&components=hosted-buttons&enable-funding=venmo&currency=USD">
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta name="keywords" content="{{ with .Params.keywords }}{{ . }}{{ end }}">
+<meta name="author" content="">
+
+<!-- Mobile Specific Metas -->
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+
+<!-- CSS -->
+<link href="{{ "css/bootstrap.css" | relURL }}" rel="stylesheet" type="text/css">
+<link href="{{ "css/bootstrap-theme.css" | relURL }}" rel="stylesheet" type="text/css">
+<link href="{{ "css/style.css" | relURL }}" rel="stylesheet" type="text/css">
+<link href="{{ "vendor/magnific/magnific-popup.css" | relURL }}" rel="stylesheet" type="text/css">
+<link href="{{ "vendor/owl-carousel/css/owl.carousel.css" | relURL }}" rel="stylesheet" type="text/css">
+<link href="{{ "vendor/owl-carousel/css/owl.theme.css" | relURL }}" rel="stylesheet" type="text/css">
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="{{ "css/ie.css" | relURL }}" media="screen" /><![endif]-->
+<link href="{{ "css/custom.css" | relURL }}" rel="stylesheet" type="text/css">
+<!-- Color Style -->
+<link href="{{ "colors/color1.css" | relURL }}" rel="stylesheet" type="text/css">
+
+<!-- Modernizr -->
+<script src="{{ "js/modernizr.js" | relURL }}"></script>

@@ -1,0 +1,109 @@
+baseURL = "https://bem.disl.edu/"
+languageCode = "en-us"
+title = "Benthic Ecology Meeting"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  googleAnalyticsID = "G-LBFYQT4Q3L"
+  contactEmail = "BEM2026@vims.edu"
+  paypalClientID = "BAAJryVkog8JL0aveVQ2lzzcu1NdrJu09j7ayRwLtp3UUZpj-4_-r7opxYS8rmQi4BW8XjgnrGKZlz7XDw"
+  paypalButtonID = "T243SR6PNR2CA"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Meeting 2026"
+    url = "/meeting-2026/"
+    weight = 3
+    identifier = "meeting2026"
+
+  [[menu.main]]
+    name = "Registration"
+    url = "/meeting-2026/registration/"
+    parent = "meeting2026"
+    weight = 1
+
+  [[menu.main]]
+    name = "Optional Programs"
+    url = "/meeting-2026/fieldtrips/"
+    parent = "meeting2026"
+    weight = 2
+
+  [[menu.main]]
+    name = "Abstract Submissions"
+    url = "/meeting-2026/abstracts/"
+    parent = "meeting2026"
+    weight = 3
+
+  [[menu.main]]
+    name = "Travel & Accommodations"
+    url = "/meeting-2026/travel/"
+    parent = "meeting2026"
+    weight = 4
+
+  [[menu.main]]
+    name = "BEM Code of Conduct"
+    url = "/code_of_conduct.pdf"
+    parent = "meeting2026"
+    weight = 5
+
+  [[menu.main]]
+    name = "Online Program"
+    url = "/meeting-2026/program/"
+    parent = "meeting2026"
+    weight = 6
+
+  [[menu.main]]
+    name = "FAQs"
+    url = "/meeting-2026/faq/"
+    parent = "meeting2026"
+    weight = 7
+
+  [[menu.main]]
+    name = "Society Info"
+    url = "/about/"
+    weight = 4
+    identifier = "society"
+
+  [[menu.main]]
+    name = "Constitution"
+    url = "/BEM_Constitution_March_2024.pdf"
+    parent = "society"
+    weight = 1
+
+  [[menu.main]]
+    name = "Board Members"
+    url = "/board/"
+    parent = "society"
+    weight = 2
+
+  [[menu.main]]
+    name = "Diversity Equity and Inclusion Committee"
+    url = "/board/#dei"
+    parent = "society"
+    weight = 3
+
+  [[menu.main]]
+    name = "Past Meetings"
+    url = "/pastmeetings/"
+    parent = "society"
+    weight = 4
+
+  [[menu.main]]
+    name = "Past Meeting Logos"
+    url = "https://drive.google.com/drive/folders/1b31yl-3vQ6p67ADqOuonM7rO5xi3rlUe?usp=share_link"
+    parent = "society"
+    weight = 5

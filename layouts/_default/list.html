@@ -1,0 +1,19 @@
+{{ define "bodyclass" }}inner{{ end }}
+
+{{ define "hero" }}
+  {{- partial "page-banner.html" . -}}
+{{ end }}
+
+{{ define "main" }}
+<!-- Main Content -->
+<div id="main-container">
+  <div class="content">
+    <div class="container">
+      <div class="text-align-left">
+        {{ .Content }}
+      </div>
+      <div class="spacer-50 hidden-sm hidden-xs"></div>
+    </div>
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,46 @@
+{{ define "bodyclass" }}home{{ end }}
+
+{{ define "hero" }}
+<!-- Hero Area with FlexSlider -->
+<div class="hero-area">
+  <div class="flexslider heroflex hero-slider"
+       data-autoplay="yes"
+       data-pagination="no"
+       data-arrows="yes"
+       data-style="fade"
+       data-pause="yes">
+    <ul class="slides">
+      {{ range .Params.slides }}
+      <li class="parallax" style="background-image: url('{{ .image }}')">
+        <div class="flex-caption">
+          <div class="container">
+            <div class="flex-caption-table">
+              <div class="flex-caption-cell">
+                <div class="flex-caption-text">
+                  {{ with .heading }}<h2{{ with $.Params.heading_color }} style="color: {{ . }};"{{ end }}>{{ . | safeHTML }}</h2>{{ end }}
+                  {{ with .subheading }}<h2{{ with $.Params.heading_color }} style="color: {{ . }};"{{ end }}>{{ . }}</h2>{{ end }}
+                  {{ with .button_url }}<a href="{{ . }}" class="btn btn-primary">{{ $.Params.button_text | default "Learn More" }}</a>{{ end }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
+{{ end }}
+
+{{ define "main" }}
+<!-- Main Content -->
+<div id="main-container">
+  <div class="content">
+    <div class="lgray-bg padding-tb75">
+      <div class="container">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

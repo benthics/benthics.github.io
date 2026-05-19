@@ -17,8 +17,8 @@
             <div class="flex-caption-table">
               <div class="flex-caption-cell">
                 <div class="flex-caption-text">
-                  {{ with .heading }}<h2{{ with $.Params.heading_color }} style="color: {{ . }};"{{ end }}>{{ . | safeHTML }}</h2>{{ end }}
-                  {{ with .subheading }}<h2{{ with $.Params.heading_color }} style="color: {{ . }};"{{ end }}>{{ . }}</h2>{{ end }}
+                  {{ with .heading }}<h2{{ with $.Params.heading_color }} style="color: {{ . | safeCSS }};"{{ end }}>{{ . | safeHTML }}</h2>{{ end }} <br>
+                  {{ with .subheading }}<h2{{ with $.Params.subheading_color }} style="color: {{ . | safeCSS }};"{{ end }}>{{ . }}</h2>{{ end }}
                   {{ with .button_url }}<a href="{{ . }}" class="btn btn-primary">{{ $.Params.button_text | default "Learn More" }}</a>{{ end }}
                 </div>
               </div>

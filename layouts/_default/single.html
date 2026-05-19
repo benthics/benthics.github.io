@@ -1,7 +1,11 @@
 {{ define "bodyclass" }}inner{{ end }}
 
 {{ define "hero" }}
-  {{- partial "page-banner.html" . -}}
+  {{ if .Params.slides }}
+    {{ partial "slider.html" . }}
+  {{ else }}
+    {{- partial "page-banner.html" . -}}
+  {{ end }}
 {{ end }}
 
 {{ define "main" }}

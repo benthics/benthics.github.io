@@ -1,6 +1,16 @@
 ---
 title: "Benthic Ecology Meeting 2026"
 date: 2026-01-01
+description: "The Benthic Ecology Meeting Society — 2026 annual meeting for marine benthic ecologists."
+slides:
+  - image: "/images/benthiccollage.png"
+    heading: "Benthic Ecology Meeting Society"
+  - image: "/images/image001.jpg"
+    heading: "54th Benthic Ecology Meeting"
+    subheading: "Join us at The Cavalier Resort in Virginia Beach, VA on March 1 - 4, 2026"
+    button_url: "https://bem.disl.edu/registration.html"
+    button_text: "Register Now!"
+heading_color: "rgb(2, 2, 85)"
 ---
 
 ## Welcome to the 54th Annual Benthic Ecology Meeting

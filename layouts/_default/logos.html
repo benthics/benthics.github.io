@@ -1,0 +1,56 @@
+{{ define "bodyclass" }}inner{{ end }}
+{{ define "hero" }}
+  {{- partial "page-banner.html" . -}}
+{{ end }}
+{{ define "main" }}
+<div id="main-container">
+  <div class="content">
+    <div class="container" style="padding: 2rem 0;">
+
+      <table style="width:100%; border-collapse: collapse;">
+        <tbody>
+        {{ $all := readDir "static/BEMLogos" }}
+{{ $exclude := slice ".DS_Store" "Thumbs.db" "desktop.ini" }}
+{{ $images := slice }}
+{{ range $all }}
+  {{ if not (in $exclude .Name) }}
+    {{ $images = append . $images }}
+  {{ end }}
+{{ end }}
+        {{ $cols := 3 }}
+        {{ range $i, $img := $images }}
+          {{ if not $img.IsDir }}
+            {{ $name := $img.Name }}
+            {{ $year := substr $name 0 4 }}
+
+            {{ if eq (mod $i $cols) 0 }}<tr>{{ end }}
+
+            <td style="width:33%; text-align:center; padding: 1.5rem 1rem; vertical-align: bottom;">
+              <a href="/BEMLogos/{{ $name }}">
+              <img src="/BEMLogos/{{ $name }}"
+                   alt="{{ $year }} BEM Logo"
+                   style="max-width: 280px; max-height: 280px; display: block; margin: 0 auto;">
+              </a>
+              <p style="margin-top: 0.5rem; font-weight: 600; color: #247d71;">{{ $year }}</p>
+            </td>
+
+            {{ if eq (mod $i $cols) (sub $cols 1) }}</tr>{{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{/* Close final row if it wasn't closed by the loop */}}
+        {{ $total := len $images }}
+        {{ if ne (mod $total $cols) 0 }}
+          {{ range seq (sub $cols (mod $total $cols)) }}
+            <td></td>
+          {{ end }}
+          </tr>
+        {{ end }}
+
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+</div>
+{{ end }}

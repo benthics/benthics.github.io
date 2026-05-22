@@ -1,6 +1,6 @@
 ---
 title: "Benthic Ecology Meeting Society"
-date: 2025-01-01
+date: 2026-01-01
 description: "The Benthic Ecology Meeting Society — annual meeting for marine benthic ecologists."
 slides:
   - image: "images/benthiccollage.png"
@@ -19,7 +19,7 @@ subheading_color: "rgb(205, 92, 92)"
 **When:** March 14-17, 2027   
 **Where:** Boston, Massachusetts  
 **Venue & Hosts:** [University of Massachusetts Boston ](https://www.umb.edu)  
-**Contact:** [BEM2026@vims.edu](mailto:BEM2026@vims.edu)  
+**Contact:** [bem2027@benthics.org](mailto:bem2027@benthics.org)  
 <!-- (Venue:** University of Massachusetts Boston  -->
 <!-- (Sponsors: University of Massachusetts Boston  -->
 

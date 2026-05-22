@@ -5,6 +5,10 @@ date: 2026-01-01
 
 ## Past Meetings
 
-In this section of the BEMS website, we are continuing an effort that started with the organizers of the 2016 meetings: to bring together in one location on the internet as much information on past Benthic Ecology Meetings as possible.
+There have been Benthics Ecology Meetings since [1982](/BEMLogos/1982%20BEM%20Logo.jpg)! We have a listing of all past meetings in Excel format. [Click to download](/BEM%20History.xlsx). And of you want, check out some [past logos](/BEMLogos/).
 
-We are providing a listing of all past meetings in Excel format. [Click to download](/BEM%20History.xlsx).
+More recently, since becoming a society, we've been collecting pdfs of programs, websites, and more. Take a look back!
+
+- [2024](/bem2024/)
+- [2025](/bem2025/)
+- [2026](/bem2026/)

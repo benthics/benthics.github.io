@@ -11,13 +11,15 @@ date: 2026-05-18
 
 | **Name** | **Position** |
 |------|----------|
-| Chris Patrick — Virginia Institute of Marine Science | President |
-| Jarrett Byrnes — University of Massachusetts Boston | President Elect |
-| Sean Powers — University of South Alabama / Dauphin Island Sea Lab | Past-President |
-| Zach Darnell — University of Southern Mississippi / Gulf Coast Research Lab | Secretary |
+| Jarrett Byrnes — University of Massachusetts Boston | President |
+| Chris Patrick — Virginia Institute of Marine Science | Past President |
+| April Blakeslee — East Carolina University | President Elect |
+| Robbie Lamb - University of Florida | Secretary |
+| Philip Gravinese - University of Florida | At Large |
+| Michael Robinson, Associate Professor, Barry University | DEI Committee Rep |
 | Lee Smee — Dauphin Island Sea Lab / University of South Alabama | Treasurer |
-| April Blakeslee — East Carolina University | At Large |
-| Randi Cannon — Dauphin Island Sea Lab / University of South Alabama | Student Rep President |
+| Daniel Lopez - University of Massachusetts Boston | Student Rep |
+
 
 <br><br>
 

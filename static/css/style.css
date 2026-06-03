@@ -1584,11 +1584,16 @@ body.boxed .body{
 }
 .flex-caption-text h1, .flex-caption-text h2, .flex-caption-text h3, .flex-caption-text p{
 	color:#fff;
-	margin-bottom:30px;
+	margin-bottom:60px;
+}
+.flex-caption-text h1{
+	font-size:84px;
+	line-height:90px;
 }
 .flex-caption-text h2{
 	font-size:51px;
-	line-height:60px;
+	margin-top: 40px;
+	line-height:50px;
 }
 .flex-caption-cause{
 	background:rgba(255,255,255,1);

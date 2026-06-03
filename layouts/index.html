@@ -12,14 +12,33 @@
     <ul class="slides">
       {{ range .Params.slides }}
       <li class="parallax" style="background-image: url('{{ .image }}')">
+                <img src="{{ .image }}" alt="{{ .image_alt | default "" }}" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">
         <div class="flex-caption">
           <div class="container">
             <div class="flex-caption-table">
               <div class="flex-caption-cell">
                 <div class="flex-caption-text">
-                  {{ with .heading }}<h2{{ with $.Params.heading_color }} style="color: {{ . | safeCSS }};"{{ end }}>{{ . | safeHTML }}</h2>{{ end }} <br>
-                  {{ with .subheading }}<h2{{ with $.Params.subheading_color }} style="color: {{ . | safeCSS }};"{{ end }}>{{ . }}</h2>{{ end }}
-                  {{ with .button_url }}<a href="{{ . }}" class="btn btn-primary">{{ $.Params.button_text | default "Learn More" }}</a>{{ end }}
+
+                  {{ with .heading }}
+                    {{ $style := "" }}
+                    {{ with $.Params.heading_color  }}{{ $style = printf "%scolor: %s; "                   $style . }}{{ end }}
+                    {{ with $.Params.heading_stroke }}{{ $style = printf "%s-webkit-text-stroke: %s; text-stroke: %s; " $style . . }}{{ end }}
+                    {{ with $.Params.heading_shadow }}{{ $style = printf "%stext-shadow: %s; "             $style . }}{{ end }}
+                    <h1{{ if $style }} style="{{ $style | safeCSS }}"{{ end }}>{{ . | safeHTML }}</h1>
+                  {{ end }}
+
+                  {{ with .subheading }}
+                    {{ $style := "" }}
+                    {{ with $.Params.subheading_color  }}{{ $style = printf "%scolor: %s; "                   $style . }}{{ end }}
+                    {{ with $.Params.subheading_stroke }}{{ $style = printf "%s-webkit-text-stroke: %s; text-stroke: %s; " $style . . }}{{ end }}
+                    {{ with $.Params.subheading_shadow }}{{ $style = printf "%stext-shadow: %s; "             $style . }}{{ end }}
+                    <h2{{ if $style }} style="{{ $style | safeCSS }}"{{ end }}>{{ . | safeHTML }}</h2>
+                  {{ end }}
+
+                  {{ with .button_url }}
+                    <a href="{{ . }}" class="btn btn-primary">{{ $.Params.button_text | default "Learn More" }}</a>
+                  {{ end }}
+
                 </div>
               </div>
             </div>

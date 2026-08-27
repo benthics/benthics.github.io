@@ -7,7 +7,7 @@ date: 2026-05-18
 	table {width: 60%;}
 </style>
 
-## Board Members 
+## Board Members
 Contact: [bem-board@benthics.org](mailto:bem-board@benthics.org)  
 
 | **Name** | **Position** |
@@ -16,7 +16,7 @@ Contact: [bem-board@benthics.org](mailto:bem-board@benthics.org)
 | Chris Patrick — Virginia Institute of Marine Science | Past President |
 | April Blakeslee — East Carolina University | President Elect |
 | Robbie Lamb - University of Florida | Secretary |
-| Philip Gravinese - University of Florida | At Large |
+| Philip Gravinese - Eckerd College | At Large |
 | Michael Robinson, Associate Professor, Barry University | DEI Committee Rep |
 | Lee Smee — Dauphin Island Sea Lab / University of South Alabama | Treasurer |
 | Daniel Lopez - University of Massachusetts Boston | Student Rep |
@@ -26,7 +26,7 @@ To contact the board, email [bem-board@benthics.org](mailto:bem-board@benthics.o
 <br><br>
 
 
-## DEI Committee 
+## DEI Committee
 Contact: [deic@benthics.org](mailto:deic@benthics.org)  
 
 | **Name** | **Position** |
@@ -38,7 +38,7 @@ Contact: [deic@benthics.org](mailto:deic@benthics.org)
 
 <br><br>
 
-## Student Committee 
+## Student Committee
 Contact: [students@benthics.org](mailto:students@benthics.org)  
 
 | **Name** | **Position**|

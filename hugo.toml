@@ -33,17 +33,23 @@ title = "Benthic Ecology Meeting"
     url = "/about/"
     weight = 2
 
-  # [[menu.main]]
-  #   name = "Meeting 2026"
-  #   url = "/meeting-2026/"
-  #   weight = 3
-  #   identifier = "meeting2026"
+   [[menu.main]]
+     name = "Meeting 2027"
+     url = "/meeting-2027/"
+     weight = 3
+    identifier = "meeting2027"
 
   # [[menu.main]]
   #   name = "Registration"
   #   url = "/meeting-2026/registration/"
   #   parent = "meeting2026"
   #   weight = 1
+
+   [[menu.main]]
+     name = "Organizing Committee"
+     url = "/meeting-2027/committee/"
+     parent = "meeting2027"
+     weight = 1
 
   # [[menu.main]]
   #   name = "Optional Programs"

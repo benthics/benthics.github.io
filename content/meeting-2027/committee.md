@@ -12,6 +12,7 @@ date: 2026-05-18
 | [Guilherme Longo](https://longolab.weebly.com) |&nbsp; | <img src="/images/2027/committee/Guilherme-Longo.jpg" style="width:200px; height:auto;"> |
 | [Nichola Hill](https://www.theviruspluslab.com) |&nbsp; | <img src="/images/2027/committee/Nichola-J-Hill.jpg" style="width:200px; height:auto;"> |
 | [Daniel Lopez](https://celp-lab.org/current_members/daniel_lopez.html) |&nbsp; | <img src="/images/2027/committee/daniel.jpeg" style="width:200px; height:auto;"> |
+| [Prassede Vella](https://massbays.org/staff-2/) |&nbsp; | <img src="/images/2027/committee/prassede-vella.png" style="width:200px; height:auto;"> |
 | [Aly Putnam](https://alybputnam.weebly.com/) |&nbsp; | <img src="/images/2027/committee/Aly-Putnam.jpg" style="width:200px; height:auto;"> |
 
 <br><br>  

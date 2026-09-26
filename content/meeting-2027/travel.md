@@ -40,7 +40,8 @@ The Doubletree provides free shuttle service to and from Boston Logan airport fr
 
 ## Address of Venue
 
-100 William T Morrissey Blvd 
-Boston, MA 02125
+100 William T Morrissey Blvd   
+Boston, MA 02125  
+[link to map](https://maps.app.goo.gl/XHz4Wj9rLqtwq1oD9)
 
 <iframe src="https://maps.app.goo.gl/XHz4Wj9rLqtwq1oD9" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

@@ -9,7 +9,8 @@ title = "Benthic Ecology Meeting"
 
 [params]
   googleAnalyticsID = "G-LBFYQT4Q3L"
-  contactEmail = "BEM2026@vims.edu"
+ # contactEmail = "BEM2026@vims.edu"
+  contactEmail = "bem2027@benthics.org"
   paypalClientID = "BAAJryVkog8JL0aveVQ2lzzcu1NdrJu09j7ayRwLtp3UUZpj-4_-r7opxYS8rmQi4BW8XjgnrGKZlz7XDw"
   paypalButtonID = "T243SR6PNR2CA"
 
@@ -41,8 +42,8 @@ title = "Benthic Ecology Meeting"
 
   # [[menu.main]]
   #   name = "Registration"
-  #   url = "/meeting-2026/registration/"
-  #   parent = "meeting2026"
+  #   url = "/meeting-2027/registration/"
+  #   parent = "meeting2027"
   #   weight = 1
 
    [[menu.main]]
@@ -53,21 +54,21 @@ title = "Benthic Ecology Meeting"
 
   # [[menu.main]]
   #   name = "Optional Programs"
-  #   url = "/meeting-2026/fieldtrips/"
-  #   parent = "meeting2026"
+  #   url = "/meeting-2027/fieldtrips/"
+  #   parent = "meeting2027"
   #   weight = 2
 
   # [[menu.main]]
   #   name = "Abstract Submissions"
-  #   url = "/meeting-2026/abstracts/"
-  #   parent = "meeting2026"
+  #   url = "/meeting-2027/abstracts/"
+  #   parent = "meeting2027"
   #   weight = 3
 
-  # [[menu.main]]
-  #   name = "Travel & Accommodations"
-  #   url = "/meeting-2026/travel/"
-  #   parent = "meeting2026"
-  #   weight = 4
+   [[menu.main]]
+     name = "Travel & Accommodations"
+     url = "/meeting-2027/travel/"
+     parent = "meeting2027"
+     weight = 4
 
   [[menu.main]]
     name = "BEM Code of Conduct"
@@ -78,14 +79,20 @@ title = "Benthic Ecology Meeting"
 
   # [[menu.main]]
   #   name = "Online Program"
-  #   url = "/meeting-2026/program/"
-  #   parent = "meeting2026"
+  #   url = "/meeting-2027/program/"
+  #   parent = "meeting2027"
   #   weight = 6
 
   # [[menu.main]]
+  #   name = "Dining"
+  #   url = "/meeting-2027/dining/"
+  #   parent = "meeting2027"
+  #   weight = 7
+
+  # [[menu.main]]
   #   name = "FAQs"
-  #   url = "/meeting-2026/faq/"
-  #   parent = "meeting2026"
+  #   url = "/meeting-2027/faq/"
+  #   parent = "meeting2027"
   #   weight = 7
 
   [[menu.main]]

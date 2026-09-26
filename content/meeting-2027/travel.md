@@ -16,6 +16,8 @@ We will have two official hotels for BEM 2027.
 
 ### DoubleTree by Hilton Bayside
 
+*Note: the link for our room block defaults to reserving starting on the 14th. If you are not arriving until the day of the welcome social, change this to Monday the 15th*
+
 The first is the [DoubleTree by Hilton Boston Bayside](https://www.hilton.com/en/book/reservation/deeplink/?ctyhocn=BOSCHDT&groupCode=CDT907&arrivaldate=2027-03-14&departuredate=2027-03-19&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT). If you cannot use the preceeding link, you can also able to call the main DoubleTree reservation line at 1-800-222-TREE and reference the DoubleTree by Hilton Boston Bayside - Benthic Ecological Meeting Society. 
 
 We have [a room block of 125 rooms](https://www.hilton.com/en/book/reservation/deeplink/?ctyhocn=BOSCHDT&groupCode=CDT907&arrivaldate=2027-03-14&departuredate=2027-03-19&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT) for the duration of the meeting (M-F), and 30 for Sunday for those who need to arrive early for workshops on Monday or are being ambitious and coming for the Sunday South Boston St. Patrick's Day parade. We have arranged a discounted rate of $219/night plus taxes (sales tax rate is 6.25%,  Food and Beverage tax of 0.75%, and a hotel occupancy tax of 16.45%). Rooms here must be reserved by Tuesday, February 16, 2027.

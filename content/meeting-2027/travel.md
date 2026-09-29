@@ -40,4 +40,4 @@ The Doubletree provides free shuttle service to and from Boston Logan airport fr
 Boston, MA 02125  
 [link to map](https://maps.app.goo.gl/XHz4Wj9rLqtwq1oD9)
 
-<iframe src="https://maps.app.goo.gl/XHz4Wj9rLqtwq1oD9" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2950.3261241071496!2d-71.0400454!3d42.3142424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37ae2decb714d%3A0x9d8d8b36d503f000!2sCampus%20Center%2C%20UMass%20Boston!5e0!3m2!1sen!2spl!4v1790692758259!5m2!1sen!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>

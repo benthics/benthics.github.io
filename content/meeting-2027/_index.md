@@ -32,19 +32,19 @@ subheading_shadow: #"2px 2px 4px rgba(0,0,0,0.6)"
 
 ### Schedule
 
-#### Monday, March 15, 2026
+#### Monday, March 15, 2027
 - Optional fieldtrips and workshops
 - Welcome reception in the evening, 6pm–8pm
 
-#### Tuesday, March 16, 2026
+#### Tuesday, March 16, 2027
 - Presidential Plenary Session
 - Concurrent sessions with oral presentations
 
-#### Wednesday, March 17, 2026
+#### Wednesday, March 17, 2027
 - Concurrent sessions with oral presentations
 - Poster session, 6pm–8pm
 
-#### Thursday, March 18, 2026
+#### Thursday, March 18, 2027
 - Concurrent sessions with oral presentations
 - Banquet TBA!
 
@@ -59,7 +59,7 @@ Everyone must register for the conference, regardless of whether they are submit
 
 ### Accommodations
 
-The official hotel for BEM 2027 is the Doubletree by Hilton Bayside. Room blocks are available at the Doubletree hotel currently. <!-- For more information, see the [Travel and Accommodations](/meeting-2027/travel/) page. -->
+The official hotel for BEM 2027 is the Doubletree by Hilton Bayside. Room blocks are available at the Doubletree hotel currently. For more information, see the [Travel and Accommodations](/meeting-2027/travel/) page. 
 
 <!--
 

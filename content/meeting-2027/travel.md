@@ -23,9 +23,16 @@ Hotel check-in time is 3 PM, and check-out time is 12 PM.
 
 To get to the meeting venue, you can catch a campus (NOT MBTA) shuttle bus at St. Christopher's Church across the street - 263 Mt Vernon St - and it will take you straight to the Campus Center or, further, to the ISC. [Directions here](https://www.google.com/maps/dir/263+Mt+Vernon+St+@+St+Christopher's+Church,+Boston,+MA+02125/Campus+Center,+UMass+Boston,+100+William+T+Morrissey+Blvd,+Boston,+MA+02125/@42.315889,-71.0457641,16z/data=!3m2!4b1!5s0x89e37af9b5d0de47:0xaff0b09cb4d3080e!4m14!4m13!1m5!1m1!1s0x89e37af8fe3197a7:0xff1a55d6bc4b99e4!2m2!1d-71.0459091!2d42.3190315!1m5!1m1!1s0x89e37ae2decb714d:0x9d8d8b36d503f000!2m2!1d-71.0366086!2d42.3126653!3e3?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D). The bus should take ~5 minutes and leaves every 10-15 minutes. Alternately, you can walk to the campus center in about 15-20 minutes.
 
-### Second Hotel TBD!
+### Cambria Hotel Boston Downtown-Seaport 
 
-We have one more hotel coming. It will be on the MBTA Red Line, and thus attendees will be able to take a quick trip to the JFK/UMass MBTA stop, where shuttles will bring you straight to the front doors of the Campus Center or around the corner to the ISC.
+We have a block of 25 rooms at the Cambria Hotel Boston Downtown-Seaport from Monday to Friday. You may use [this link](https://www.choicehotels.com/reservations/groups/CA01I5) to make a reservation. If you cannot use the link, you can also call the sales department directly at (617)765-2634.  We have arranged for a discounted rate of $209/night plusa 16.45% state and local taxes in effect at time of check in. 
+
+Hotel check-in time is 3 PM, and check-out time is 12 PM.
+
+The hotel is in Broadway Square, near many excellent restauraunts, including a short walk up Fort Point to the Boston Seaport. It is also one stop from South Station and then to Park Street to access downtown Boston. 
+
+To get to the meeting venue, you will take the MBTA Red Line to the JFK/UMass stop. From there you can catch a shuttle bus to campus (**not** an MBTA bus) and get off at the campus center or walk, if you wish (~20 minutes). The bus should take ~5 minutes and leaves every 10-15 minutes. [Directions are here](https://maps.app.goo.gl/btRFmQRqy7kvEc5TA).
+
 
 ## Transportation
 

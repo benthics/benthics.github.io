@@ -24,6 +24,8 @@ subheading_shadow: #"2px 2px 4px rgba(0,0,0,0.6)"
 
 ## Welcome to the 55th Annual Benthic Ecology Meeting
 
+{{< cols widths="2fr 1fr" >}}
+
 **When:** March 15-18, 2027   
 **Where:** Boston, Massachusetts  
 **Venue & Hosts:** [University of Massachusetts Boston ](https://www.umb.edu)  
@@ -31,4 +33,31 @@ subheading_shadow: #"2px 2px 4px rgba(0,0,0,0.6)"
 **Image** Courtesy of Curtis Morris
 <!-- (Venue:** University of Massachusetts Boston  -->
 <!-- (Sponsors: University of Massachusetts Boston  -->
+
+|||
+
+![BEM 2027 Logo](/images/2027_logo_small.png)
+{{< /cols >}}
+
+
+<!--
+
+example column layouts
+{{< cols min="250px" >}}
+first
+|||
+second
+|||
+third
+{{< /cols >}}
+
+OR
+
+{{< cols widths="2fr 1fr" >}}
+**When:** March 15-18, 2027  
+**Where:** Boston, Massachusetts
+|||
+![BEMS 2027 logo](/images/2027_logo_small.png)
+{{< /cols >}}
+-->
 

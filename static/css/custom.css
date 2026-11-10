@@ -1,0 +1,12 @@
+.cols {
+  display: grid;
+  grid-template-columns: var(--cols);
+  gap: var(--gap);
+  align-items: var(--align);
+}
+.cols img { max-width: 100%; height: auto; }
+
+/* stack fixed-width layouts on small screens */
+@media (max-width: 768px) {
+  .cols { grid-template-columns: 1fr; }
+}

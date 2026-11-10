@@ -1,0 +1,17 @@
+{{- $widths := .Get "widths" | default "1fr 1fr" -}}
+{{- $gap    := .Get "gap"    | default "1rem" -}}
+{{- $align  := .Get "align"  | default "start" -}}
+{{- $min    := .Get "min" -}}
+{{- $md     := ne (.Get "markdown") "false" -}}
+
+{{- /* "min" switches to fluid mode: as many columns as fit, each at least this wide */ -}}
+{{- $template := $widths -}}
+{{- if $min -}}
+  {{- $template = printf "repeat(auto-fit, minmax(min(100%%, %s), 1fr))" $min -}}
+{{- end -}}
+
+<div class="cols" style="--cols:{{ $template }}; --gap:{{ $gap }}; --align:{{ $align }};" >
+{{- range split .Inner "|||" }}
+  <div class="col">{{ if $md }}{{ . | markdownify }}{{ else }}{{ . | safeHTML }}{{ end }}</div>
+{{- end }}
+</div>

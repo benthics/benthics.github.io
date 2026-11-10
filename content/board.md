@@ -21,8 +21,6 @@ Contact: [bem-board@benthics.org](mailto:bem-board@benthics.org)
 | Lee Smee — Dauphin Island Sea Lab / University of South Alabama | Treasurer |
 | Daniel Lopez - University of Massachusetts Boston | Student Rep |
 
-To contact the board, email [bem-board@benthics.org](mailto:bem-board@benthics.org).
-
 <br><br>
 
 

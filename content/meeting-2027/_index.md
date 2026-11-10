@@ -28,7 +28,8 @@ subheading_shadow: #"2px 2px 4px rgba(0,0,0,0.6)"
 **Where:** Boston, Massachusetts  
 **Venue & Hosts:** [University of Massachusetts Boston ](https://www.umb.edu)  
 **Contact:** [bem2027@benthics.org](mailto:bem2027@benthics.org)  
-**Image** Courtesy of Curtis Morris
+**Image** Courtesy of Curtis Morris  
+**Logo** By Nadia Sparenberg and Averie St. Germaine
 
 ### Schedule
 

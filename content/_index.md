@@ -31,6 +31,7 @@ subheading_shadow: #"2px 2px 4px rgba(0,0,0,0.6)"
 **Venue & Hosts:** [University of Massachusetts Boston ](https://www.umb.edu)  
 **Contact:** [bem2027@benthics.org](mailto:bem2027@benthics.org)  
 **Image** Courtesy of Curtis Morris
+**Logo** By Nadia Sparenberg and Averie St. Germaine
 <!-- (Venue:** University of Massachusetts Boston  -->
 <!-- (Sponsors: University of Massachusetts Boston  -->
 

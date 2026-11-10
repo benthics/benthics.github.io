@@ -1,3 +1,16 @@
+:root {
+  /* Logo palette: edit these to re-theme the whole site */
+  --brand-purple: #443555;
+  --brand-blue:   #5373ac;
+  --brand-gold:   #dcbf75;
+  --brand-water:  #b3c2d4;
+
+  /* Where the palette is used */
+  --accent:    var(--brand-blue);    /* links, buttons, icons, underlines */
+  --bar-start: var(--brand-purple);  /* banner + footer gradient, left */
+  --bar-end:   var(--brand-blue);    /* banner + footer gradient, right */
+}
+
 .cols {
   display: grid;
   grid-template-columns: var(--cols);

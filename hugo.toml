@@ -1,5 +1,5 @@
 baseURL = "https://benthics.github.io/"
-languageCode = "en-us"
+locale = "en-us"
 title = "Benthic Ecology Meeting"
 
 [markup]
@@ -49,6 +49,18 @@ title = "Benthic Ecology Meeting"
    [[menu.main]]
      name = "Organizing Committee"
      url = "/meeting-2027/committee/"
+     parent = "meeting2027"
+     weight = 1
+
+   [[menu.main]]
+     name = "Schedule"
+     url = "/meeting-2027/schedule/"
+     parent = "meeting2027"
+     weight = 1
+
+   [[menu.main]]
+     name = "Sponsorship"
+     url = "/meeting-2027/sponsorship/"
      parent = "meeting2027"
      weight = 1
 

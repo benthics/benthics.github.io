@@ -26,7 +26,8 @@ title = "Benthic Ecology Meeting"
 
   [[menu.main]]
     name = "Mailing List"
-    url = "https://benthics.org/mailman/listinfo/bem-list_benthics.org"
+    url = "https://lists.benthics.org/mailman3/lists/bem-list.lists.benthics.org/"
+#    url = "https://benthics.org/mailman/listinfo/bem-list_benthics.org"
     weight = 1
 
   [[menu.main]]
